@@ -50,8 +50,8 @@ class Blockchain{
 }
 
 let mychain = new Blockchain();
-mychain.addBlock(new Block(1, "01/07/2017", { amount: 4}));
-mychain.addBlock(new Block(2, "12/07/2017", { amount: 10}));
+mychain.addBlock(new Block(1, "01/09/2022", { amount: 4}));
+mychain.addBlock(new Block(2, "12/10/2022", { amount: 10}));
 console.log("is blockchain valid? " + mychain.blockValidation());
 
 mychain.chain[1].data = {amount : 100 };
